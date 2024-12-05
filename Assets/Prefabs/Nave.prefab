@@ -140,6 +140,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5104212771588801143}
+  - {fileID: 2865572828825549301}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 4.589, y: -0.064, z: 1.374}
 --- !u!54 &6577422801600222832
@@ -150,8 +151,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242645199553527580}
   serializedVersion: 4
-  m_Mass: 0.12
-  m_Drag: 0
+  m_Mass: 0.1
+  m_Drag: 0.3
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -538,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5104212771588801143
 Transform:
   m_ObjectHideFlags: 0
@@ -1471,3 +1472,122 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!1001 &2327857651453861406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8357265870985796975}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6544757
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000018626447
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7560831
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000007450579
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -98.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4932982780345470907, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 715c53af16386bf44b38dedbfb435e85, type: 2}
+    - target: {fileID: -1439730007547781893, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1686fa7d64b40b34bb731f5a0ab22fe8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_Name
+      value: SpaceShuttel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129496810705857465, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1686fa7d64b40b34bb731f5a0ab22fe8, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9387ff541d0681543940106c1233a751, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7855899966024362904}
+  m_SourcePrefab: {fileID: 100100000, guid: 9387ff541d0681543940106c1233a751, type: 3}
+--- !u!4 &2865572828825549301 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9387ff541d0681543940106c1233a751, type: 3}
+  m_PrefabInstance: {fileID: 2327857651453861406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3210890486669124431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9387ff541d0681543940106c1233a751, type: 3}
+  m_PrefabInstance: {fileID: 2327857651453861406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7855899966024362904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210890486669124431}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.5, y: 5.6, z: 3.1}
+  m_Center: {x: 1.1104856, y: 2.2842147, z: -2.0369093}

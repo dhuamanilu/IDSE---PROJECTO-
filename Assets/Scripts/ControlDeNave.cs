@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlDeNave : MonoBehaviour
 {
@@ -64,5 +65,30 @@ public class ControlDeNave : MonoBehaviour
             audioSource.Stop();
         }
         rigidbody.freezeRotation = false;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        /*if (collision.gameObject.CompareTag("ColisionSegura"))
+        {
+            print("Colision Segura...");
+        }
+        else if (collision.gameObject.CompareTag("ColisionPeligrosa"))
+        {
+            print("Colision Peligrosa...");
+        }*/
+        switch (collision.gameObject.tag) {
+            case "ColisionSegura":
+                print("Colision Segura...");
+                break;
+            case "Combustible":
+                print("Combustible...");
+                break;
+            case "Aterrizaje":
+                SceneManager.LoadScene("escena1");
+                break;
+            default:
+                print("Warning");
+                break;
+        }
     }
 }
